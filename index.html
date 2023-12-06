@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - CV</title>
+    <style>
+        body {
+            background-color: #db858953;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            /* background-color: #db858953; */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 20px;
+            writing-mode: vertical-rl;
+            text-align: center;
+            width: 100px;
+        }
+        
+        .sidebar a {
+            font-size: 20px;
+            text-decoration: none;
+            color: #333; /* Dark lily color */
+            margin: 0 10px; /* Adjust margin for spacing */
+        }
+
+        .sidebar a:hover{
+          /* border: 2px solid #db8589; */
+          color: #db8589;
+          border-right: 2px solid #db8589;
+          border-left: 2px solid #db8589;
+          padding: 10px;
+          animation:ease-in-out;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .greeting {
+            flex: 1;
+            margin-right: 20px; /* Adjust margin for spacing */
+        }
+
+        .hallo
+        {
+            font-size: 70px;
+        }
+
+        .profile-picture {
+            flex: 1;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 36px; /* Increase font size */
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="#about-me">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#xperience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contacts</a>
+    </div>
+
+    <div class="main-content">
+        <div class="greeting">
+            <h1 class="hallo">—</h1>
+            <h1 class="hallo">Hello, I'm Anait</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <h1 class="hallo">—————</h1>
+        </div>
+
+        <div class="profile-picture">
+            <img src="1.jpg" alt="Profile Picture">
+        </div>
+    </div>
+
+</body>
+</html>
