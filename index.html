@@ -3,132 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - CV</title>
-    <style>
-        body {
-            background-color: #db858953;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            height: 100vh;
-        }
-
-        .sidebar {
-            /* background-color: #db858953; */
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-            padding: 20px;
-            writing-mode: vertical-rl;
-            text-align: center;
-            width: 100px;
-        }
-        
-        .sidebar a {
-            font-size: 20px;
-            text-decoration: none;
-            color: #333; /* Dark lily color */
-            margin: 0 10px; /* Adjust margin for spacing */
-        }
-
-        .sidebar a:hover{
-          /* border: 2px solid #db8589; */
-          color: #db8589;
-          border-right: 2px solid #db8589;
-          border-left: 2px solid #db8589;
-          padding: 10px;
-          animation:ease-in-out;
-        }
-
-        .main-content {
-            flex: 1;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .greeting {
-            flex: 1;
-            margin-right: 20px; /* Adjust margin for spacing */
-        }
-
-        .hallo
-        {
-            font-size: 70px;
-        }
-
-        .profile-picture {
-            flex: 1;
-            border-radius: 50%;
-            overflow: hidden;
-        }
-
-        .profile-picture img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        h1 {
-            color: #333;
-            margin-bottom: 10px;
-            font-size: 36px; /* Increase font size */
-        }
-
-        p {
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .project {
-            margin-bottom: 20px;
-        }
-
-        .project a {
-            text-decoration: none;
-            color: #007BFF;
-        }
-
-        .project a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Anait Kasamanian - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="sidebar">
-        <a href="#about-me">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#xperience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contacts">Contacts</a>
-    </div>
-
-    <div class="main-content">
-        <div class="greeting">
-            <h1 class="hallo">—</h1>
-            <h1 class="hallo">Hello, I'm Anait</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, 
-                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <h1 class="hallo">—————</h1>
-        </div>
-
-        <div class="profile-picture">
+    <section id="profile-picture">
+        <div class="container">
+            <div class="profile-info">
+                <h1 id="name">Anait Kasamanian</h1>
+                <p id="title">Software Engineer</p>
+            </div>
             <img src="1.jpg" alt="Profile Picture">
         </div>
-    </div>
-
+    </section>    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul>
+                <li>Phone: +380 97 327 47 17</li>
+                <li>Email: akasamanian@gmail.com</li>
+                <li>Location: Wolfsburg, Germany</li>
+            </ul>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>T-Systems International GmbH - Software Engineering Intern in Connected Mobility</h3>
+                <p>2023 - 2024</p>
+                <p>Connected Mobility Academy - educational program from Connected Mobility department of T-Systems. Daily tasks on topics of Software Architecture, Cloud (working with Azure Cloud Computing Services and Terraform), Automation (CI/CD) (working with Azure Cloud, Docker, GitHub Actions, Kubernetes deployment)</p>
+                <p>Contribution to the UI on a customer project for Mercedes Benz, working with Angular on the frontend, and Python on the backend. Contribution to the Frontend with NextJS/React, to an open source project that was presented as Hack Challenge environment in Eclipse SDV Hackathon.</p>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="degree">
+                <h3>Chelyabinsk State University - Business-Informatics Bachelor of Science</h3>
+                <p>2015 - 2020</p>
+                <p>As an interdisciplinary science, business informatics combines business administration and computer science. The course of study conveys sound theoretical and practical knowledge and skills in both areas and deals with the application of information and communication technology methods to operational problems.</p>
+            </div>
+            <div class="degree">
+                <h3>Software Engineering school - 42 Wolfsburg</h3>
+                <p>2021 - 2024</p>
+                <p>42 Wolfsburg is innovative software engineering school of higher education, with project based peer-to-peer learning approach. The core curriculum consists from learning-projects, where each project is a practical challenge focusing on a specific aspect of programming. Projects are mainly done in low level programming language C , and later in the core in C++ and TypeScript.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Cub3D (Wolfenstein like 3D game)</h3>
+                <p>2023</p>
+                <p>Team project, written in C, Wolfenstein like 3D game, created using simple raycasting technique, graphical library created by 42 school (MiniLibx), without any other additional external libraries. My part in this project: creation of the simple raycaster, creating custom texture design for the game.</p>
+            </div>
+            <div class="project">
+                <h3>Minishell (bash clone)</h3>
+                <p>2023</p>
+                <p>Group project, written in C. The goal of the project was creating a functional clone of bash that is executing shell commands, handling input/output redirections, pipes, environment variables. As well as implementation of few of the signals and few specific builtins. My part in this project: execution, implementation of pipes, input/output redirection, signals.</p>
+            </div>
+            <div class="project">
+                <h3>Fractal renderer</h3>
+                <p>2022</p>
+                <p>Graphical visualization of Fractals (visual representation of certain mathematical patterns), coded in C, using graphical library created by 42 school (MiniLibx), without any other additional external libraries. Rendering of Mandelbrot fractal, few fractals of Julia set and Burning ship fractal. All fractals available in few different colour combinations.</p>
+            </div>
+        </div>
+    </section>
+    <section id="links">
+        <div class="container">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- More sections for experience, education, projects, etc. -->
 </body>
 </html>
