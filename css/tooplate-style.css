@@ -95,11 +95,11 @@ b, strong {
   color: #5f6bd2;
 }
 .custom-btn.custom-btn-bg {
-  background: #5f6ad28a;
+  background: #5f6ad2;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #5f6bd2;
+  background: #363e88;
   color: #ffffff !important;
 }
 
@@ -506,6 +506,8 @@ b, strong {
 
   .about-image {
     margin-top: 4em;
+      max-width: 100%;
+      height: auto;
   }
 
   .mobile-mt-2,
@@ -568,12 +570,6 @@ b, strong {
   .timeline-info small {
     display: block;
     margin: 10px 0 0 0;
-  }
-
-  .about-image {
-    margin-top: 4em;
-    width: 200px;
-    height: auto; 
   }
 }
 @media (max-width: 320px) {
