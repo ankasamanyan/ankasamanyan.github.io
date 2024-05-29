@@ -184,7 +184,7 @@ b, strong {
   }
 }
 .navbar {
-  margin-top: 15px;
+  padding-top: 25px;
   position: fixed;
   top: 0;
   right: 0;
@@ -359,7 +359,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  /* background: #474559; */
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -598,4 +598,18 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+}
+
+.resume {
+  color: #5f6ad2;
+  h2 {
+    color: #5f6ad2;
+  }
+  small {
+    color: #5f6ad2;
+  }
+}
+
+.timeline-yr {
+  background: #5f6ad2;
 }
