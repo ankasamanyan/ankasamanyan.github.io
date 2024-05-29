@@ -551,6 +551,10 @@ b, strong {
   .custom-btn-group {
     text-align: center;
   }
+  .outline-btn {
+    display: block;
+    margin: 10px 0;
+  }
 
   .custom-btn {
     display: block;
