@@ -184,6 +184,7 @@ b, strong {
   }
 }
 .navbar {
+  margin-top: 15px;
   position: fixed;
   top: 0;
   right: 0;
@@ -572,6 +573,7 @@ b, strong {
 
   .about-text {
     text-align: center;
+    margin-bottom: 150px;
   }
 
   .full-screen {
