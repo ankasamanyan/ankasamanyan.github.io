@@ -570,6 +570,13 @@ padding-top: 0;
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
+
+  .skills {
+    margin-top: 50px;
+    .img-fluid {
+      margin-top: 10;
+    }
+  }
 }
 @media (max-width: 580px) {
 	.animated-info {
