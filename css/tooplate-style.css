@@ -576,6 +576,9 @@ padding-top: 0;
     .img-fluid {
       margin-top: 10;
     }
+    .skill-btn-group {
+      text-align: left;
+    }
   }
 }
 @media (max-width: 580px) {
