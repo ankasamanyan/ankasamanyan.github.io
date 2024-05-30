@@ -518,6 +518,10 @@ b, strong {
   .contact-info {
     padding: 0 2rem;
   }
+  .about {
+    padding-top: 42px;
+    padding: 20px;
+  }
 }
 @media (max-width: 767px) {
   h1 {
@@ -571,6 +575,11 @@ b, strong {
     display: block;
     margin: 10px 0 0 0;
   }
+
+  .about {
+    margin-top: 0;
+  }
+
 }
 @media (max-width: 320px) {
   .animated-text {
