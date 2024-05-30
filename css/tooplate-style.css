@@ -115,6 +115,17 @@ b, strong {
   overflow: hidden;
   transition: all 0.4s ease;
 }
+.skill-item {
+  color: #999;
+  margin: 10px 0;
+  border: 2px solid #5f6bd2;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 13px 29px;
+  font-size: 14px;
+  line-height: normal;
+  overflow: hidden;
+}
 
 .outline-btn:hover {
   background: #5f6bd2;
@@ -314,7 +325,7 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  background: #080826;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -329,6 +340,9 @@ b, strong {
 .dark-mode .small-text {
   background: #0d0c15;
   color: #ffffff;
+}
+.dark-mode p {
+  color: rgb(139, 139, 139);
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
@@ -488,6 +502,13 @@ b, strong {
 .social-links .uil:hover {
   color: #5f6bd2;
 }
+.skills {
+margin-top: 0;
+padding-top: 0;
+  span {
+    color: #5f6bd2;
+  }
+}
 
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
@@ -518,9 +539,13 @@ b, strong {
   .contact-info {
     padding: 0 2rem;
   }
+
   .about {
     padding-top: 42px;
     padding: 20px;
+  }
+  .resume {
+    padding: 10px;
   }
 }
 @media (max-width: 767px) {
@@ -564,6 +589,16 @@ b, strong {
 
   .custom-btn {
     display: block;
+    margin: 10px 0;
+  }
+
+  .skills h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .skill-item {
     margin: 10px 0;
   }
 
