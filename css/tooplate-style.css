@@ -127,6 +127,10 @@ b, strong {
   overflow: hidden;
 }
 
+.languages {
+  margin-top: 15px;
+}
+
 .outline-btn:hover {
   background: #5f6bd2;
   color: #ffffff !important;
@@ -448,11 +452,7 @@ b, strong {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #5b5b5b;
 }
-
-.google-map iframe {
-  width: 100%;
-}
-
+/* 
 .contact-form {
   position: relative;
 }
@@ -501,7 +501,8 @@ b, strong {
 }
 .social-links .uil:hover {
   color: #5f6bd2;
-}
+} */
+
 .skills {
 margin-top: 0;
 padding-top: 0;
