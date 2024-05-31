@@ -494,7 +494,7 @@ padding-top: 0;
   }
 
   .contact-image {
-    margin-left: 20%;
+    margin: 20px;
   }
 }
 @media (max-width: 767px) {
@@ -530,9 +530,9 @@ padding-top: 0;
     }
   }
 
-  .contact-image {
+  /* .contact-image {
     margin-left: 10%;
-  }
+  } */
 }
 @media (max-width: 580px) {
 	.animated-info {
@@ -655,6 +655,7 @@ padding-top: 0;
 }
 
 .contact-img {
+  margin: 0;
   max-width: 440px;
   height: auto;
   margin-bottom: 42px;
@@ -699,7 +700,8 @@ padding-top: 0;
   text-align: center;
 }
 
-/* .contact-image img {
-  max-width: 200px;
+.contact-image img {
+  padding: 20px;
+  max-width: 500px;
   height: auto;
-} */
+}
