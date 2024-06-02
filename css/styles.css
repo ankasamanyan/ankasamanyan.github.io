@@ -596,7 +596,7 @@ padding-top: 0;
 
 .resume {
   color: #5f6ad2;
-  h2 {
+  h1 {
     color: #5f6ad2;
   }
   small {
@@ -686,6 +686,13 @@ padding-top: 0;
   width: 100%;
   margin: 20px;
   padding: 20px;
+}
+
+.project-header {
+  margin-top: 0;
+  padding-bottom: 50px;
+  color: #5f6ad2;
+  text-align: center;
 }
 
 /* .contact-image {
