@@ -353,6 +353,9 @@ b, strong {
 .dark-mode .contact-form .form-control {
   color: #ffffff;
 }
+.dark-mode .project h2 {
+  color: #5f6ad2;
+}
 
 .timeline-wrapper {
   position: relative;
@@ -520,6 +523,10 @@ padding-top: 0;
     }
   }
 
+  .fractal {
+    margin-bottom: 30px;
+  }
+
 }
 @media (max-width: 580px) {
 	.animated-info {
@@ -563,6 +570,14 @@ padding-top: 0;
 
   .about {
     margin-top: 0;
+  }
+  .project {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    .row {
+      padding: 0;
+    }
   }
 
 }
@@ -688,6 +703,15 @@ padding-top: 0;
   padding: 20px;
 }
 
+.project {
+  padding-top: 15px;
+  margin-top: 25px;
+
+  .row {
+    margin-bottom: 150px;
+  }
+}
+
 .project-header {
   margin-top: 0;
   padding-bottom: 50px;
@@ -695,12 +719,12 @@ padding-top: 0;
   text-align: center;
 }
 
-/* .contact-image {
-  text-align: center;
+.cub3d-image{
+  border-radius: 20px;
+  max-width: 550px;
+}
+.fractal-image{
+  border-radius: 20px;
+  max-width: 550px;
 }
 
-.contact-image img {
-  padding: 20px;
-  max-width: 500px;
-  height: auto;
-} */
