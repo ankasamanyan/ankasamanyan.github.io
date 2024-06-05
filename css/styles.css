@@ -527,6 +527,11 @@ padding-top: 0;
     margin-bottom: 30px;
   }
 
+  /* .project .project-item {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  } */
+
 }
 @media (max-width: 580px) {
 	.animated-info {
@@ -571,13 +576,11 @@ padding-top: 0;
   .about {
     margin-top: 0;
   }
+
   .project {
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 20px;
-    .row {
-      padding: 0;
-    }
+    padding: 0 20px;
   }
 
 }
@@ -706,9 +709,8 @@ padding-top: 0;
 .project {
   padding-top: 15px;
   margin-top: 25px;
-
   .row {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 }
 
@@ -723,6 +725,7 @@ padding-top: 0;
   border-radius: 20px;
   max-width: 550px;
 }
+
 .fractal-image{
   border-radius: 20px;
   max-width: 550px;
